@@ -3,13 +3,19 @@ body{
   background: linear-gradient(rgb(196, 82, 82),rgb(71, 15, 104));
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 
 h1{
   color: whitesmoke;
   text-shadow: 7px 5px 3px rgba(1, 1, 1, 0.5);
   font-size: 77px;
   text-align: center;
+}
+p{
+  width: 500px;
+  color: white;
 }
